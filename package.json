@@ -1,6 +1,6 @@
 {
   "name": "karma-dirname-preprocessor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "karma preprocessor for replace __dirname",
   "main": "index.js",
   "scripts": {

@@ -5,7 +5,7 @@ const createDirnamePreprocessor = logger => {
 
   return (content, file, done) => {
     log.debug('Processing "%s".', file.originalPath);
-    done(content.replace('__dirname', path.dirname(file.originalPath)));
+    done(content.replace('__dirname', `'${path.dirname(file.originalPath))}'`);
   };
 };
 
